@@ -37,7 +37,7 @@ def cennik():
    return render_template('cennik.html')
 
 
-# test
+# test 2 2 
 
 if __name__ == '__main__':  
    app.run()
