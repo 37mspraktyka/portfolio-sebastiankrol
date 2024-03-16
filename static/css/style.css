@@ -34,6 +34,11 @@
 }
 
 
+.menubutton:hover {
+    box-shadow: 0px 3px 25px rgb(40, 130, 255);
+
+}
+
 #list_button_menu{
     list-style: none;
 }
@@ -67,7 +72,7 @@
 }
 
 #list_button_menu a:hover{
-    border-color: rgb(100, 165, 250);;
+    border-color: rgb(100, 165, 250);
     color:rgb(75, 151, 250);
     transition: 0.4s;
     animation: ease-in-out;
