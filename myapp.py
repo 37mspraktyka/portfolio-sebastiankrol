@@ -36,6 +36,8 @@ def omnie():
 def cennik():
    return render_template('cennik.html')
 
+# czarny rudy gej
+
 
 if __name__ == '__main__':  
    app.run()
