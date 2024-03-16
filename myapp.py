@@ -2,7 +2,7 @@ from flask import Flask, render_template, url_for
 
 app = Flask(__name__, static_url_path='/static')
 
-# niger jest czarny
+# czarny niger jest czarny
 
 @app.route("/")
 def index():
