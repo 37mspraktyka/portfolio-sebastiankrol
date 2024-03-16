@@ -135,13 +135,11 @@ html{
     margin-left: 30px;
     width: 50%;
     height: 30vh;
-    border-radius: 10px;
+    border-radius: 0px;
+    background-color: #818181;
     border: 3px solid white;
     word-wrap: break-word;
 
 }
 
-.description_box p{
-    margin: 10 10px 10px 10px;
-}
 
