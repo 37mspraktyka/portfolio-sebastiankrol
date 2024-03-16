@@ -136,8 +136,9 @@ html{
     width: 50%;
     height: 30vh;
     border-radius: 0px;
-    background-color: #818181;
-
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid white;
     word-wrap: break-word;
 
 }
