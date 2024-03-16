@@ -109,29 +109,6 @@ html{
     scroll-behavior: smooth;
 }
 
-#projekty {
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(47,47,47)
-}
-
-#kontakt{
-    width: 100%;
-    height: 100vh;
-    background-color: transparent;
-}
-
-#o-mnie{
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(47,47,47);
-}
-
-#cennik{
-    width: 100%;
-    height: 100vh;
-    background-color: transparent;
-}
 
 
 .sectionMsg{
