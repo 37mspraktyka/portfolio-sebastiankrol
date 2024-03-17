@@ -144,3 +144,128 @@ html{
 }
 
 
+.boxes{
+    border-radius: 5px;
+    border:3px solid white;
+    width: 1600px;
+    height: 800px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.box1{
+    width: 1600px;
+    height: calc(800px / 3);
+    border-bottom: 3px solid white;
+
+}
+
+.box1:last-child{
+    border-bottom: 3px;
+}
+
+.img3{
+    background: url('../imgs/img3.png');
+    position: static;
+    height: 266px;
+    /* background-size: cover; */
+    width: 400px;
+    
+}
+
+.boxinfo1{
+    display: flex;
+}
+
+.box-information {
+
+    width: 1600px;
+    background-color: #272626;
+    height: 266px;
+
+    color:white;
+    font-size: 26px;
+    font-family: monospace;
+    
+
+    
+    
+}
+
+.box-information h1{
+    text-align: center;
+}
+
+.box-information p{
+    text-align: center;
+    
+}
+
+details{
+    transition: 2s;
+    animation: ease-in-out;
+    transform: rotate(-50%)
+}
+
+.lookprojectsbtn{
+    list-style: none;
+    text-decoration: none;
+    color:white;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: monospace;
+    font-size: 38px;
+    border: 3px solid white;
+    padding:10px 20px;
+    transition: 1s;
+
+}
+
+.lookprojectsbtn p{
+    transition: 1s;
+}
+
+.lookprojectsbtn:hover p{
+    border-color: rgb(56, 142, 255);
+    color:rgb(40, 130, 255);
+    filter:drop-shadow(1px 3px 8px rgb(0, 106, 255));
+    transition: 0.4s;
+}
+
+.lookprojectsbtn:hover{
+    border-color: rgb(70, 140, 250);
+    box-shadow: -5px 5px 30px rgb(0, 106, 255);
+}
+
+.lookprojectsbtn:visited{
+    color:white;
+}
+
+
+
+.animacja {
+    width: 100%;
+    animation: typing 3s steps(21), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
