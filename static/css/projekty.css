@@ -207,3 +207,14 @@ html{
 }
 
 
+.mainMsg{
+    color:white;
+    font-family: monospace;
+    margin: 10px;
+    font-size: 38px;
+
+}
+
+.mainMsg:visited{
+    color:white
+}
