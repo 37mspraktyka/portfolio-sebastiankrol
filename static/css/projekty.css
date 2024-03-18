@@ -210,7 +210,8 @@ html{
 .mainMsg{
     color:white;
     font-family: monospace;
-    margin: 10px;
+    text-decoration: none;
+    margin: 20px;
     font-size: 38px;
 
 }
@@ -218,3 +219,4 @@ html{
 .mainMsg:visited{
     color:white
 }
+
